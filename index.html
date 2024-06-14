@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bonsai Property Management</title>
+    <link rel="shortcut icon" href="/logo/favicon.ico" type="image/x-icon">
+<!-- bootstrap link -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/26acb014a1.js" crossorigin="anonymous"></script>
+<!-- css link -->
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- navbar start -->
+<header class="header">
+    <div class="logo">
+        <a href="#"><img src="logo/Bonsai logo.png" alt="Bonsai Logo"></a>
+    </div>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html" class="nav__link"><i class="bi bi-arrow-up-right"></i><span>Home</span></a></li>
+            <li><a href="#service" class="nav__link"><i class="bi bi-arrow-up-right"></i><span>Services</span></a></li>
+            <li><a href="#moreService" class="nav__link"><i class="bi bi-arrow-up-right"></i><span>More service</span></a></li>
+            <li><a href="#about" class="nav__link"><i class="bi bi-arrow-up-right"></i><span>About</span></a></li>
+            <li><a href="client.html" class="nav__link"><i class="bi bi-arrow-up-right"></i><span>Clients</span></a></li>
+            <li><a href="vendor.html" class="nav__link"><i class="bi bi-arrow-up-right"></i><span>Vendors</span></a></li>
+            <li><a href="contact.html" class="nav__link"><i class="bi bi-arrow-up-right"></i><span>Contact</span></a></li>
+        </ul>
+    </nav>
+    <div class="icon">
+        <div class="fas fa-bars" id="menu_btn" onclick="toggle_menu()"></div>
+    </div>
+</header>
+<!-- navbar end -->
+
+<!-- carousel start -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/carousel-1.jpg" class="d-block" alt="Error404">
+      <div class="carousel-captions d-none d-md-block">
+        <h1>Unique housing solutions for you</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus adipisci voluptas asperiores exercitationem at voluptates, inventore repellat assumenda expedita eum qui laboriosam odit similique sapiente numquam magni rerum distinctio natus.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/carousel-3.jpg" class="d-block" alt="Error404">
+      <div class="carousel-captions d-none d-md-block">
+        <h1>Unique housing solutions for you</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus adipisci voluptas asperiores exercitationem at voluptates, inventore repellat assumenda expedita eum qui laboriosam odit similique sapiente numquam magni rerum distinctio natus.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/image/carousel-2.jpg" class="d-block" alt="Error404">
+      <div class="carousel-captions d-none d-md-block">
+        <h1>Unique housing solutions for you</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus adipisci voluptas asperiores exercitationem at voluptates, inventore repellat assumenda expedita eum qui laboriosam odit similique sapiente numquam magni rerum distinctio natus.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- carousel end -->
+
+
+<!-- service start -->
+<div class="container" id="service">
+<h1>Service</h1>
+
+<div class="service-container container">
+
+  <div class="box show">
+    <i class="bi bi-house-door"></i>
+    <div class="details">
+    <h2>service-1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias consequatur aliquid consequuntur inventore, rem et, amet pariatur omnis sequi ut harum eveniet praesentium aliquam nisi voluptatum distinctio.</p>
+    <br>
+    <div class="service-name">
+
+      <div class="bi bi-check-lg right-sign" style="color: #4F46E5; font-size: x-large;"><span style="color: black; font-size: 1.5rem; font-weight: 500;">24/7 service</span></div>
+      <div class="bi bi-check-lg right-sign" style="color: #4F46E5; font-size: x-large;"><span style="color: black; font-size: 1.5rem; font-weight: 500;">24/7 service</span></div>
+      <div class="bi bi-check-lg right-sign" style="color: #4F46E5; font-size: x-large;"><span style="color: black; font-size: 1.5rem; font-weight: 500;">24/7 service</span></div>
+      <div class="bi bi-check-lg right-sign" style="color: #4F46E5; font-size: x-large;"><span style="color: black; font-size: 1.5rem; font-weight: 500;">24/7 service</span></div>
+
+    </div>
+    </div>
+    <div class="buttons">
+      <a href="#"><button>more details</button></a>
+    </div>
+  </div>
+  <div class="box">
+    <i class="bi bi-house-door"></i>
+    <div class="details">
+    <h2>service-2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias consequatur aliquid consequuntur inventore, rem et, amet pariatur omnis sequi ut harum eveniet praesentium aliquam nisi voluptatum distinctio.</p>
+    <br>
+    <div class="service-name">
+
+      <div class="bi bi-check-lg right-sign" style="color: #4F46E5; font-size: x-large;"><span style="color: black; font-size: 1.5rem; font-weight: 500;">24/7 service</span></div>
+      <div class="bi bi-check-lg right-sign" style="color: #4F46E5; font-size: x-large;"><span style="color: black; font-size: 1.5rem; font-weight: 500;">24/7 service</span></div>
+      <div class="bi bi-check-lg right-sign" style="color: #4F46E5; font-size: x-large;"><span style="color: black; font-size: 1.5rem; font-weight: 500;">24/7 service</span></div>
+      <div class="bi bi-check-lg right-sign" style="color: #4F46E5; font-size: x-large;"><span style="color: black; font-size: 1.5rem; font-weight: 500;">24/7 service</span></div>
+
+    </div>
+    </div>
+    <div class="buttons">
+      <a href="#"><button>more details</button></a>
+    </div>
+  </div>
+  <div class="box">
+    <i class="bi bi-house-door"></i>
+    <div class="details">
+    <h2>service-3</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias consequatur aliquid consequuntur inventore, rem et, amet pariatur omnis sequi ut harum eveniet praesentium aliquam nisi voluptatum distinctio.</p>
+    <br>
+    <div class="service-name">
+
+      <div class="bi bi-check-lg right-sign" style="color: #4F46E5; font-size: x-large;"><span style="color: black; font-size: 1.5rem; font-weight: 500;">24/7 service</span></div>
+      <div class="bi bi-check-lg right-sign" style="color: #4F46E5; font-size: x-large;"><span style="color: black; font-size: 1.5rem; font-weight: 500;">24/7 service</span></div>
+      <div class="bi bi-check-lg right-sign" style="color: #4F46E5; font-size: x-large;"><span style="color: black; font-size: 1.5rem; font-weight: 500;">24/7 service</span></div>
+      <div class="bi bi-check-lg right-sign" style="color: #4F46E5; font-size: x-large;"><span style="color: black; font-size: 1.5rem; font-weight: 500;">24/7 service</span></div>
+
+    </div>
+    </div>
+    <div class="buttons">
+      <a href="#"><button>more details</button></a>
+    </div>
+  </div>
+  <div class="box">
+    <i class="bi bi-house-door"></i> 
+    <div class="details">
+    <h2>service-4</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias consequatur aliquid consequuntur inventore, rem et, amet pariatur omnis sequi ut harum eveniet praesentium aliquam nisi voluptatum distinctio.</p>
+    <br>
+    <div class="service-name">
+
+      <div class="bi bi-check-lg right-sign" style="color: #4F46E5; font-size: x-large;"><span style="color: black; font-size: 1.5rem; font-weight: 500;">24/7 service</span></div>
+      <div class="bi bi-check-lg right-sign" style="color: #4F46E5; font-size: x-large;"><span style="color: black; font-size: 1.5rem; font-weight: 500;">24/7 service</span></div>
+      <div class="bi bi-check-lg right-sign" style="color: #4F46E5; font-size: x-large;"><span style="color: black; font-size: 1.5rem; font-weight: 500;">24/7 service</span></div>
+      <div class="bi bi-check-lg right-sign" style="color: #4F46E5; font-size: x-large;"><span style="color: black; font-size: 1.5rem; font-weight: 500;">24/7 service</span></div>
+
+    </div>
+    </div>
+    <div class="buttons">
+      <a href="#"><button>more details</button></a>
+    </div>
+  </div>
+</div>
+
+</div>
+<!-- service end -->
+<br><br><br>
+<!-- more service start -->
+<div class="container" id="moreService">
+  <h1>More Service</h1>
+  
+  <div class="more-service-container container">
+
+    <div class="more-service-card show">
+      <div class="bi bi-shield-fill-check">
+        <span>SECURING</span>
+      </div>
+      <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, corrupti.</P>
+    </div>
+    <div class="more-service-card">
+      <div class="bi bi-tree-fill">
+        <span>landscaping</span>
+      </div>
+      <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, corrupti.</P>
+    </div>
+    <div class="more-service-card">
+      <div class="fa-solid fa-broom">
+        <span>janitorial</span>
+      </div>
+      <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, corrupti.</P>
+    </div>
+    <div class="more-service-card">
+      <div class="bi bi-house-gear-fill">
+        <span>rehab</span>
+      </div>
+      <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, corrupti.</P>
+    </div>
+    <div class="more-service-card">
+      <div class="fa-solid fa-dumpster">
+        <span>trash out
+        </span>
+      </div>
+      <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, corrupti.</P>
+    </div>
+    <div class="more-service-card">
+      <div class="bi bi-snow2">
+        <span>winterization</span>
+      </div>
+      <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, corrupti.</P>
+    </div>
+    <div class="more-service-card">
+      <div class="fa-solid fa-broom">
+        <span>mold remediation</span>
+      </div>
+      <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, corrupti.</P>
+    </div>
+    <div class="more-service-card">
+      <div class="fa-solid fa-screwdriver-wrench">
+        <span>general repairs</span>
+      </div>
+      <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, corrupti.</P>
+    </div>
+  </div>
+  <div class="buttonse">
+    <a href="#"><button>more info</button></a>
+  </div>
+</div>
+<!-- more service end -->
+
+<!-- about us start -->
+<div class="container" id="about">
+  <h1>about us</h1>
+  <div class="aboutUs-container">
+    <div class="about-us-1">
+      <img src="image/about us-1.jpg" alt="Error404" style="width: 100%;">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure debitis deleniti nemo pariatur voluptate! Mollitia, amet quis cupiditate voluptatum est molestias odit cum beatae repudiandae officiis? Quod id magnam, ad iure accusantium quas molestias veritatis in ducimus omnis cumque accusamus ipsum numquam at amet deleniti itaque autem reprehenderit. Perspiciatis adipisci voluptas iusto, laudantium consequatur dolor dolores ipsum quibusdam maxime rem vero nihil dolorem tempore delectus, nesciunt consequuntur non maiores eius itaque earum quod. In consequuntur optio voluptas sit voluptatem neque.</p>
+    </div>
+    <br>
+    <div class="about-us-2">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure debitis deleniti nemo pariatur voluptate! Mollitia, amet quis cupiditate voluptatum est molestias odit cum beatae repudiandae officiis? Quod id magnam, ad iure accusantium quas molestias veritatis in ducimus omnis cumque accusamus ipsum numquam at amet deleniti itaque autem reprehenderit. Perspiciatis adipisci voluptas iusto, laudantium consequatur dolor dolores ipsum quibusdam maxime rem vero nihil dolorem tempore delectus, nesciunt consequuntur non maiores eius itaque earum quod. In consequuntur optio voluptas sit voluptatem neque.</p>
+      <img src="image/about us-2.jpg" alt="Error404" style="width: 100%;">
+      <p class="second-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure debitis deleniti nemo pariatur voluptate! Mollitia, amet quis cupiditate voluptatum est molestias odit cum beatae repudiandae officiis? Quod id magnam, ad iure accusantium quas molestias veritatis in ducimus omnis cumque accusamus ipsum numquam at amet deleniti itaque autem reprehenderit. Perspiciatis adipisci voluptas iusto, laudantium consequatur dolor dolores ipsum quibusdam maxime rem vero nihil dolorem tempore delectus, nesciunt consequuntur non maiores eius itaque earum quod. In consequuntur optio voluptas sit voluptatem neque.</p>
+    </div>
+  </div>
+</div>
+<!-- about us end -->
+
+<!-- our work start -->
+  <div class="container">
+    <h1>our work</h1>
+    <div class="ourWorks">
+
+      <img src="work-img/Aluminum-Coating-on-Roof.jpeg" style="width:100%" class="item">
+      <img src="work-img/Deck-Repair.jpeg" style="width:100%" class="item">
+      <img src="work-img/Giant-Tree-Removal.jpeg" style="width:100%" class="item">
+      <img src="work-img/Pool-Cover.jpeg" style="width:100%" class="item">
+      <img src="work-img/Repair-Walkway.jpeg" style="width:100%" class="item">
+      <img src="work-img/Roof-Repair.jpeg" style="width:100%" class="item">
+      <img src="work-img/Securing-Pool.jpeg" style="width:100%" class="item">
+      <img src="work-img/Slider-Door-Replacement.jpeg" style="width:100%" class="item">
+
+    </div>
+    <!-- Modal for photos -->
+    <div id="photoModal" class="modals">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="modalImg">
+      <div id="caption"></div>
+      <div class="carousel-controls">
+          <button id="prevPhoto">&lt;</button>
+          <button id="nextPhoto">&gt;</button>
+      </div>
+    </div>
+  </div>
+<!-- our work start -->
+
+
+<!-- footer start -->
+<footer>
+<div class="footer-container">
+  <div class="row logo-row">
+    <img src="logo/Bonsai logo.png" alt="Error404">
+  </div>
+  <div class="row content-row">
+    <div class="col">
+      <div>
+        <h4>Get In Touch</h4>
+        <h2>Wingmen Property Management</h2>
+        <h6>Wingmen Property Management LLC</h6>
+      </div>
+      <br>
+      <div class="contact-info">
+        <i class="fas fa-phone"></i>
+        <a href="tel:+15556667778">+1 555 666 7778</a>
+        <br>
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:someone@example.com"> info.username@gmail.com<a>
+        <br>
+        <i class="bi bi-geo-alt"></i>
+        <a href="#"> 1065 SW 8th St #1285, Miami, FL 33130</a>
+      </div>
+      <br>
+      <div class="social-link">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    
+    <div class="col locaition">
+      <h2>Our location</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.1358721108313!2d-80.2124912!3d25.766075299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6f30a1f3d19%3A0x257655e5c761af77!2s1065%20SW%208th%20St%20%231285%2C%20Miami%2C%20FL%2033130%2C%20USA!5e0!3m2!1sen!2sbd!4v1718373905127!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="col impo-links">
+      <h2>Important links</h2>
+      <ul>
+        <li><a href="index.html" class="nav__link"><i class="bi bi-arrow-up-right"></i><span>Home</span></a></li>
+        <li><a href="#service" class="nav__link"><i class="bi bi-arrow-up-right"></i><span>Services</span></a></li>
+        <li><a href="#moreService" class="nav__link"><i class="bi bi-arrow-up-right"></i><span>More service</span></a></li>
+        <li><a href="#about" class="nav__link"><i class="bi bi-arrow-up-right"></i><span>About</span></a></li>
+        <li><a href="client.html" class="nav__link"><i class="bi bi-arrow-up-right"></i><span>Clients</span></a></li>
+        <li><a href="vendor.html" class="nav__link"><i class="bi bi-arrow-up-right"></i><span>Vendors</span></a></li>
+        <li><a href="contact.html" class="nav__link"><i class="bi bi-arrow-up-right"></i><span>Contact</span></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</footer>
+
+<!-- footer end -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</body>
+</html>
